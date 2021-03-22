@@ -23,3 +23,6 @@ name = input("What is your name?")
 colour = input("What is your favourite colour?")
 print('Hi' +" "+ name)
 print(name + ", likes " + colour)
+
+food = "yam"
+print(food)
