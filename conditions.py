@@ -42,3 +42,11 @@ if hasHighIncome or hasGoodCredit:             #At least One condition needs to 
     print("Eligible for Loan and other goods")                     #even if one statement is false it will execute because of the OR operator)
 else:
     print("Not eligible for Loan")
+
+print("NOT OPERATOR")
+#has good credit and not a criminal record
+good_credit = True
+criminalRecord = False       # the not operator would turn this to True
+
+if good_credit and not criminalRecord:          # and not (criminalRecord = False)  === True
+    print("you are good to go")
