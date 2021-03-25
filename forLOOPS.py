@@ -26,7 +26,7 @@ numbers = [5,2,5,2,2]
 for x_count in numbers:
     output = ''
     for count in range(x_count):
-        output += "x"
+        output += "x"                               #thought this would produce 5 + x, 2 +x, etc
     print(output)
 
 
