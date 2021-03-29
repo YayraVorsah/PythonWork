@@ -34,7 +34,7 @@ class Point:                                #capitalize the first character and 
 
 
 point1 = Point()               #objects are the instances based on the class )in this eg ----point1-----is the object
-point1.x = 10
+point1.x = 10                   #they can have attributes set anywhere in our program (.x, .y)
 point1.y = 20
 print(point1.x)
 point1.draw()
